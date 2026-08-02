@@ -69,7 +69,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 60px 60px;
+    margin: 0 auto 60px;
     padding-top: 70px;
     gap: 6px;
 }
@@ -177,7 +177,7 @@ margin-bottom: 40px;
     width: 80%;
     border: none;
     border-top: 1px solid #6f806d;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .gift {
@@ -216,8 +216,6 @@ margin-bottom: 40px;
     background-color: #DCD1BD;
     padding-bottom: 80px;
 }
-
-
 
 .news-item {
     display: flex;
@@ -294,4 +292,184 @@ footer {
 footer p {
     font-size: 14px;
     font-family: "Cormorant Garamond", serif;
+}
+
+@media screen  and (max-width: 768px) {
+    .logo {
+        width: 150px;
+    }
+    
+    nav ul {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .section-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+    }
+
+    .image-text {
+        left: 20px;
+        right: auto;
+        bottom: 20px;
+        font-size: 10px;
+    }
+
+    .concept-text {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .staff-image {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .concept-text p {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .main-item {
+        display: block;
+    }
+
+    .main-item-image {
+        width: 100%;
+        max-width: 350px;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .main-item-text {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .sub-items {
+        display: block;
+    }
+
+    .sub-item {
+        margin-bottom: 30px;
+    }
+
+    .sub-item img {
+        width: 100%;
+        max-width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .item-text {
+        text-align: center;
+    }
+
+    .button {
+        display: block;
+        width: fit-content;
+        margin: 30px auto 0;
+    }
+
+    .gift-content {
+        display: block;
+        text-align: center;
+    }
+
+    .gift-content img {
+        width: 100%;
+        max-width: 250px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .gift-text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .gift-text h3 {
+        text-align: center;
+    }
+
+    .gift-text p {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .news-item {
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .news-date {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+        
+    .news-text {
+        display: block;
+    }
+
+    .access-text {
+        display: block;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .access-text iframe {
+        width: 90%;
+        max-width: 320px;
+        height: 220px;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .access-text p {
+        text-align: center;
+        line-height: 2;
+        
+    }
+
+    .instagram {
+        display: block;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .instagram-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .instagram-text p {
+        text-align: center;
+        line-height: 2;
+        padding: 0 20px;
+    }
+
+    .instagram-account {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .instagram-account img {
+        width: 220px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
 }
