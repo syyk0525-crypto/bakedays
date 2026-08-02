@@ -296,15 +296,15 @@ footer p {
 
 @media screen  and (max-width: 768px) {
     .logo {
-        width: 150px;
+        width: 120px;
     }
     
     nav ul {
-        gap: 10px;
+        gap: 6px;
     }
 
     nav a {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .section-title {
