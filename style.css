@@ -298,6 +298,8 @@ footer p {
     .logo {
         width: 120px;
         margin-left: 0;
+        height: auto;
+        flex-shrink: 0;
     }
     
     nav ul {
