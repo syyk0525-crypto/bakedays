@@ -300,11 +300,15 @@ footer p {
     }
     
     nav ul {
-        gap: 6px;
+        gap: 4px;
     }
 
     nav a {
-        font-size: 11px;
+        font-size: 10px;
+    }
+
+    header {
+        padding: 0 10px;
     }
 
     .section-title {
