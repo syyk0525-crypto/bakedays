@@ -303,11 +303,11 @@ footer p {
     }
     
     nav ul {
-        gap: 4px;
+        gap: 2px;
     }
 
     nav a {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     header {
@@ -325,9 +325,9 @@ footer p {
     }
 
     .image-text {
-        left: 20px;
+        left: 15px;
         right: auto;
-        bottom: 20px;
+        bottom: 15px;
         font-size: 10px;
     }
 
@@ -344,6 +344,8 @@ footer p {
     .concept-text p {
         max-width: 90%;
         text-align: center;
+        font-size: 16px;
+        line-height: 2.2;
     }
 
     .main-item {
