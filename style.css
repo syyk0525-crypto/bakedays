@@ -296,7 +296,7 @@ footer p {
 
 @media screen  and (max-width: 768px) {
     .logo {
-        width: 120px;
+        width: 100px;
         margin-left: 0;
         height: auto;
         flex-shrink: 0;
