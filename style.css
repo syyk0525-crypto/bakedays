@@ -297,6 +297,7 @@ footer p {
 @media screen  and (max-width: 768px) {
     .logo {
         width: 120px;
+        margin-left: 0;
     }
     
     nav ul {
